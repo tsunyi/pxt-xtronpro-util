@@ -3,6 +3,33 @@
 
 > Open this page at [https://tsunyi.github.io/pxt-xtronpro-buttons/](https://tsunyi.github.io/pxt-xtronpro-buttons/)
 
+## Usage
+
+Add Xtron Pro additional buttons
+
+Xtron Pro has two more buttons than other MakeCode Arcade consoles. They are located on the core of Xtron Pro, the start button is shared with the power button, so the core of Xtron Pro has three user buttons for programming.
+
+![xtronpro-additional-buttons](https://user-images.githubusercontent.com/8207663/141603877-891bf52a-4e33-4512-a19d-d47a5eb482e8.jpg)
+
+After adding this extension, you will get two other options on the following blocks.
+
+![image](https://user-images.githubusercontent.com/8207663/141604180-fda8673f-716d-4f09-a317-dc852a675d18.png)
+
+JavaScript API
+
+```block
+controller.C.onEvent(ControllerButtonEvent.Pressed, function () {
+  ...
+})
+
+controller.start.onEvent(ControllerButtonEvent.Pressed, function () {
+  ...
+})
+
+controller.C.isPressed()
+
+controller.start.isPressed()
+```
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
