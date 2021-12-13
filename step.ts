@@ -144,7 +144,7 @@ namespace controller {
 
     //% blockId=getuserstep
     //% block="steps"
-    //% help=pedometer/get-user-steps  
+    //% help=github:xtronpro-util/docs/step
     //% weight=100
     //% group="Extras"
     export function steps(): number {
