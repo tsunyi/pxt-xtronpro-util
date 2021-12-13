@@ -2,18 +2,20 @@
     "name": "xtronpro-buttons",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "controller": "*"
     },
     "files": [
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "step.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.6.24",
+        "target": "1.7.24",
         "targetId": "arcade"
     },
     "supportedTargets": [
