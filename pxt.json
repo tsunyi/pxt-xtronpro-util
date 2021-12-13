@@ -1,5 +1,5 @@
 {
-    "name": "xtronpro-buttons",
+    "name": "xtronpro-util",
     "description": "",
     "dependencies": {
         "device": "*",
